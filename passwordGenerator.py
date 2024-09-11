@@ -2,14 +2,12 @@ import string
 import random
 
 # all valid chars stored in lists
-
 l1 = list(string.ascii_lowercase)
 l2 = list(string.ascii_uppercase)
 l3 = list(string.digits)
 l4 = list(string.punctuation)
 
 # input how many characters should the password be
-
 num_chars = input("How many characters do you need? >")
 num_chars = int(num_chars)
 # shuffle the lists
